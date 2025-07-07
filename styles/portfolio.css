@@ -34,6 +34,18 @@
     cursor: pointer;
 }
 
+.btn-secondary {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 36px;
+    background-color: #18181800;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
 .secondary-bg {
     background-color: #FFF8F3;
 }
