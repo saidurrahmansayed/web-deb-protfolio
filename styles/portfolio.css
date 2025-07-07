@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared styles */
+.text-primary {
+    color: #FD6E0A;
+}
+.dark-1 {
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-desc {
+    color: #757575;
+    font-size: 18px;
+}
+
+.items-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #757575;
+}
+
+.items-desc {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text-center{
+    text-align: center;
+}
+/* Header Style */
+header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: center left, bottom right;
+}
+/* Nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 50px 0;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Banner Styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px 0 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-desc {
+    font-size: 18px;
+    margin: 20px 0 30px 0;
+}
+
+.banner-image {
+    max-width: 580px;
+}
+
+/* Main Styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* About Styles */
+.about-section {
+    padding: 130px 150px;
+    text-align: center;
+    margin-bottom: 130px;
+    border-radius: 10px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* Skills Design */
+
+.skills-content {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-desc {
+    color: #757575;
+    line-height: 26px;
+}
+
+/* Resume style  */
+.resume .section-title{
+    margin: 100px 0;
+}
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.experience-description p {
+    color: #757575;
+    line-height: 28px;
+}
+
+.resume-hr {
+    margin: 30px 0;
+}
+
+.resume-btn {
+    margin-top: 50px;
+}
+
+/* Footer Style */
+footer {
+    display: flex;
+    gap: 117px;
+    padding: 130px 230px;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-desc{
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-icon a{
+    margin-right: 20px;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    color: #757575;
+    padding: 18px 30px;
+    height: 65px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+textarea {
+    color: #757575;
+    padding: 18px 30px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
